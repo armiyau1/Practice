@@ -10,7 +10,7 @@ this.model=model
 this.year=year
     }
 getCarInfo(){
-    return `${this.brand} ${this.model} ${this.brand}`
+    return `${this.brand} ${this.model} ${this.year}`
 }
 getCarAge(){
     if(this.year < 2015){
@@ -23,6 +23,6 @@ getCarAge(){
 const myCar = new car ("Toyota","Camry",2010)
 myCar.getCarAge()
 const nyCar = new car ("Toyota","Camry",2022)
-myCar.getCarAge()
+nyCar.getCarAge()
 
 
