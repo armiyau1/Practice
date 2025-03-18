@@ -20,7 +20,7 @@ getCarAge(){
     }
 }
 }
-const myCar = new car ("Toyota","Camry",2010)
+const myCar = new car ("Toyota","Camry",2022)
 myCar.getCarAge()
 const nyCar = new car ("Toyota","Camry",2022)
 nyCar.getCarAge()
