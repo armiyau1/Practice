@@ -5,7 +5,7 @@ var car = /** @class */ (function () {
         this.year = year;
     }
     car.prototype.getCarInfo = function () {
-        return "".concat(this.brand, " ").concat(this.model, " ").concat(this.brand);
+        return "".concat(this.brand, " ").concat(this.model, " ").concat(this.year);
     };
     car.prototype.getCarAge = function () {
         if (this.year < 2015) {
@@ -20,4 +20,4 @@ var car = /** @class */ (function () {
 var myCar = new car("Toyota", "Camry", 2010);
 myCar.getCarAge();
 var nyCar = new car("Toyota", "Camry", 2022);
-myCar.getCarAge();
+nyCar.getCarAge();
